@@ -1,0 +1,46 @@
+.main {
+  min-width:600px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+  /* align-items: center;   */
+}
+
+.first {
+width: 200px;
+min-width: 200px;
+/* background-color: red; */
+}
+.second {
+  min-width: 100px;
+  width:100%;
+  /* width: -webkit-fill-available; */
+  /* width: -moz-available; */
+  /* background-color: green; */
+}
+.third {
+  width: 300px;
+  min-width: 300px;
+  /* background-color: blue; */
+}
+
+.link {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+.link:hover
+ {
+  color: purple;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
